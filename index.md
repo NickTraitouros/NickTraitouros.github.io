@@ -13,3 +13,6 @@ I am barely active on these social networks:
 * [GitHub](https://github.com/NickTraitouros)
 * [Google+](https://google.com/+NickTraitouros1)
 * [LinkedIn](https://www.linkedin.com/pub/nick-traitouros/11/881/b15)
+
+![tree](http://www.freegreatpicture.com/files/39/1609-tree.jpg "Tree")
+ 
