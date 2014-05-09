@@ -1,0 +1,13 @@
+<article>
+    <header class="entry-header">
+    <h1 class="entry-title"><a href="{{ include.page.url }}">{{ include.page.title }}</a></h1>
+    Posted {{ include.page.date | date: "%B %-d, %Y" }}
+    </header>
+    <div class="entry-content">
+        {% if content %}
+            {{ content }}
+        {% else %}
+            {{ page.content }}
+        {% endif %}
+    </div>
+</article>
