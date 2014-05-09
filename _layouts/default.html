@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    {% if page.date %}
+        {% include post.html page=page %}
+    {% else %}
+        {% include page.html page=page %}
+    {% endif %}
+</body>
+</html>
