@@ -2,10 +2,8 @@
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'birdsong', { preload: preload, create: create, update: update, render: render });
 
 function preload() {
-
     game.load.image('forest', 'assets/forest.png');
     game.load.audio('sfx', [ 'assets/birds.mp3' ]);
-
 }
 
 
